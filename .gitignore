@@ -1,0 +1,12 @@
+# gitnore
+
+__pycache__/
+node_modules
+.vscode
+
+# Data files
+config.json
+metadata-keywords.json
+metadata-keywords.csv
+metadata.json
+log.txt

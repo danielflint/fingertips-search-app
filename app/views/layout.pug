@@ -1,0 +1,13 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    //- script(src='/javascripts/bootstrap.min.js')
+    script(src='/javascripts/vue.min.js')
+    script(src='/javascripts/axios.min.js')
+  body
+    block content
+    script(src='/javascripts/client-index.js')

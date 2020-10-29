@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  div#app.container
+    div.row
+      div.col-md-12
+        h1 Search for indicators
+        div.form-group
+          input.form-control.col-md-4(v-model='searchText', type='text', v-on:keyup.enter="doSearch")
+        div.form-group
+          button.btn.btn-success.btn-lg(v-on:click='doSearch') GO
+        p {{message}}
+        div.row
+          div.col-md-12
+            ol
+              li(v-for="indicator in indicators" :key="indicator.Id") {{ indicator.id + ' ' + indicator.name }}

@@ -1,0 +1,22 @@
+{
+  "name": "search-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app/bin/www"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.6.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "natural": "^0.6.3",
+    "nodemon": "^2.0.2",
+    "pug": "2.0.0-beta11",
+    "vue": "^2.6.11"
+  }
+}
